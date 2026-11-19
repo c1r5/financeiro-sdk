@@ -30,3 +30,5 @@ export type { Relogio } from './ledger/ports/relogio';
 export type { RepositorioDoLivro } from './ledger/ports/repositorio-do-livro';
 export { CATEGORIAS, categoriasPorFluxo, ehDivida, labelCategoria } from './categorias/catalogo';
 export type { Categoria, FluxoCategoria } from './categorias/catalogo';
+export { validarConfiguracao } from './configuracao/configuracao';
+export type { Configuracao, DivisaoRenda } from './configuracao/configuracao';

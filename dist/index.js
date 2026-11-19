@@ -12,4 +12,5 @@ export { listarTransacoes } from './ledger/application/listar-transacoes';
 export { registrarTransacao } from './ledger/application/registrar-transacao';
 export { removerTransacao } from './ledger/application/remover-transacao';
 export { CATEGORIAS, categoriasPorFluxo, ehDivida, labelCategoria } from './categorias/catalogo';
+export { validarConfiguracao } from './configuracao/configuracao';
 //# sourceMappingURL=index.js.map
