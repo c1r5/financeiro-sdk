@@ -37,3 +37,5 @@ export { aplicavelNoMes as previsaoAplicavelNoMes, aplicarASerie, contaNaProjeca
 export type { Frequencia, Previsao } from './previsao/previsao';
 export { HORIZONTE_PROXIMA_ENTRADA_DIAS, JANELA_GASTO_DIARIO_PADRAO, aplicarGastoHipotetico, calcularDataDoAperto, calcularEventosFatura, calcularGastoAvulsoMedioDiario, calcularGastoDiarioDisponivel, fluxoRealNoDia, limiteDiarioSustentavel, limiteGastoDiario, projetarSaldo, proximaEntradaRelevante, resumirFluxo, saldoDisponivelAteData } from './projecao/projecao';
 export type { DataDoAperto, DiaProjetado, EventoFatura, EventoProjecao, EventoProximaEntrada } from './projecao/projecao';
+export { calcularDivisao, calcularEntradasProjetadas, calcularReservaAcumulada, calcularUsoDividas, projetarCustoDividas } from './divisao/divisao';
+export type { HorizonteCustoDividas, LinhaDivida, OrigemUsoDivida, RefLinhaDivida, ResultadoDivisao, UsoDividas } from './divisao/divisao';

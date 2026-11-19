@@ -109,3 +109,18 @@ export type {
 	EventoProjecao,
 	EventoProximaEntrada
 } from './projecao/projecao';
+export {
+	calcularDivisao,
+	calcularEntradasProjetadas,
+	calcularReservaAcumulada,
+	calcularUsoDividas,
+	projetarCustoDividas
+} from './divisao/divisao';
+export type {
+	HorizonteCustoDividas,
+	LinhaDivida,
+	OrigemUsoDivida,
+	RefLinhaDivida,
+	ResultadoDivisao,
+	UsoDividas
+} from './divisao/divisao';
