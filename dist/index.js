@@ -14,4 +14,5 @@ export { removerTransacao } from './ledger/application/remover-transacao';
 export { CATEGORIAS, categoriasPorFluxo, ehDivida, labelCategoria } from './categorias/catalogo';
 export { validarConfiguracao } from './configuracao/configuracao';
 export { estadoDoSaldo, estadoDoUso } from './indicadores/estado';
+export { abrirConta, poupancaDoProposito, poupancasVinculadas } from './conta/conta';
 //# sourceMappingURL=index.js.map

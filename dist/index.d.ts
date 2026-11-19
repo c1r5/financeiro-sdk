@@ -26,3 +26,5 @@ export { validarConfiguracao } from './configuracao/configuracao';
 export type { Configuracao, DivisaoRenda } from './configuracao/configuracao';
 export { estadoDoSaldo, estadoDoUso } from './indicadores/estado';
 export type { EstadoIndicador } from './indicadores/estado';
+export { abrirConta, poupancaDoProposito, poupancasVinculadas } from './conta/conta';
+export type { AberturaDeConta } from './conta/conta';
