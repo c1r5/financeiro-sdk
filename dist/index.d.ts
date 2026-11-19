@@ -28,3 +28,6 @@ export { estadoDoSaldo, estadoDoUso } from './indicadores/estado';
 export type { EstadoIndicador } from './indicadores/estado';
 export { abrirConta, poupancaDoProposito, poupancasVinculadas } from './conta/conta';
 export type { AberturaDeConta } from './conta/conta';
+export { avancarMes, dataUtc, diaDaSemana, diasNoMes, partes, somarDias } from './calendario';
+export { DESCRICAO_AJUSTE_FATURA_ATUAL, DESCRICAO_VALOR_BASE_FATURA, avancarReferencia, calcularFaturaReferencia, calcularVencimento, criarAjusteFaturaAtual, criarCartao, criarValorBase, encontrarAjusteFaturaAtual, encontrarValorBase, gerarFatura, gerarResumo, listarReferencias, proximaReferencia, referenciaAtual, registrarGasto, registrarGastoParcelado, registrarPagamento, registrarParcelamentoEmAndamento } from './cartao/cartao';
+export type { Cartao, Fatura, NovoCartao, ResumoCartao } from './cartao/cartao';
