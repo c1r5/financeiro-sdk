@@ -20,3 +20,5 @@ export { removerTransacao } from './ledger/application/remover-transacao';
 export type { GeradorDeId } from './ledger/ports/gerador-de-id';
 export type { Relogio } from './ledger/ports/relogio';
 export type { RepositorioDoLivro } from './ledger/ports/repositorio-do-livro';
+export { CATEGORIAS, categoriasPorFluxo, ehDivida, labelCategoria } from './categorias/catalogo';
+export type { Categoria, FluxoCategoria } from './categorias/catalogo';
