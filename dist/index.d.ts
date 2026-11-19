@@ -24,3 +24,5 @@ export { CATEGORIAS, categoriasPorFluxo, ehDivida, labelCategoria } from './cate
 export type { Categoria, FluxoCategoria } from './categorias/catalogo';
 export { validarConfiguracao } from './configuracao/configuracao';
 export type { Configuracao, DivisaoRenda } from './configuracao/configuracao';
+export { estadoDoSaldo, estadoDoUso } from './indicadores/estado';
+export type { EstadoIndicador } from './indicadores/estado';
