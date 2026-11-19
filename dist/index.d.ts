@@ -33,3 +33,5 @@ export { DESCRICAO_AJUSTE_FATURA_ATUAL, DESCRICAO_VALOR_BASE_FATURA, avancarRefe
 export type { Cartao, Fatura, NovoCartao, ResumoCartao } from './cartao/cartao';
 export { aplicavelNoMes, criarRecorrente, dataDaOcorrencia, desvincularPagamento, listarPendentesNoMes, marcarComoPaga, marcarComoPrevista, statusNoMes, vincularPagamentosUnicos } from './recorrencia/recorrencia';
 export type { Recorrente } from './recorrencia/recorrencia';
+export { aplicavelNoMes as previsaoAplicavelNoMes, aplicarASerie, contaNaProjecao, definirValorDoDia, desvincularPagamento as desvincularPagamentoPrevisao, excluirOcorrencia, marcarDiaPago, ocorreNoDia, reverterDia, rotuloDiasSemana, statusNoDia, valorNoDia } from './previsao/previsao';
+export type { Frequencia, Previsao } from './previsao/previsao';

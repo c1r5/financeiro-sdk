@@ -18,4 +18,5 @@ export { abrirConta, poupancaDoProposito, poupancasVinculadas } from './conta/co
 export { avancarMes, dataUtc, diaDaSemana, diasNoMes, partes, somarDias } from './calendario';
 export { DESCRICAO_AJUSTE_FATURA_ATUAL, DESCRICAO_VALOR_BASE_FATURA, avancarReferencia, calcularFaturaReferencia, calcularVencimento, criarAjusteFaturaAtual, criarCartao, criarValorBase, encontrarAjusteFaturaAtual, encontrarValorBase, gerarFatura, gerarResumo, listarReferencias, proximaReferencia, referenciaAtual, registrarGasto, registrarGastoParcelado, registrarPagamento, registrarParcelamentoEmAndamento } from './cartao/cartao';
 export { aplicavelNoMes, criarRecorrente, dataDaOcorrencia, desvincularPagamento, listarPendentesNoMes, marcarComoPaga, marcarComoPrevista, statusNoMes, vincularPagamentosUnicos } from './recorrencia/recorrencia';
+export { aplicavelNoMes as previsaoAplicavelNoMes, aplicarASerie, contaNaProjecao, definirValorDoDia, desvincularPagamento as desvincularPagamentoPrevisao, excluirOcorrencia, marcarDiaPago, ocorreNoDia, reverterDia, rotuloDiasSemana, statusNoDia, valorNoDia } from './previsao/previsao';
 //# sourceMappingURL=index.js.map
