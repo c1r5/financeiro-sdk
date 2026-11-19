@@ -17,4 +17,5 @@ export { estadoDoSaldo, estadoDoUso } from './indicadores/estado';
 export { abrirConta, poupancaDoProposito, poupancasVinculadas } from './conta/conta';
 export { avancarMes, dataUtc, diaDaSemana, diasNoMes, partes, somarDias } from './calendario';
 export { DESCRICAO_AJUSTE_FATURA_ATUAL, DESCRICAO_VALOR_BASE_FATURA, avancarReferencia, calcularFaturaReferencia, calcularVencimento, criarAjusteFaturaAtual, criarCartao, criarValorBase, encontrarAjusteFaturaAtual, encontrarValorBase, gerarFatura, gerarResumo, listarReferencias, proximaReferencia, referenciaAtual, registrarGasto, registrarGastoParcelado, registrarPagamento, registrarParcelamentoEmAndamento } from './cartao/cartao';
+export { aplicavelNoMes, criarRecorrente, dataDaOcorrencia, desvincularPagamento, listarPendentesNoMes, marcarComoPaga, marcarComoPrevista, statusNoMes, vincularPagamentosUnicos } from './recorrencia/recorrencia';
 //# sourceMappingURL=index.js.map

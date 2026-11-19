@@ -59,3 +59,15 @@ export {
 	registrarParcelamentoEmAndamento
 } from './cartao/cartao';
 export type { Cartao, Fatura, NovoCartao, ResumoCartao } from './cartao/cartao';
+export {
+	aplicavelNoMes,
+	criarRecorrente,
+	dataDaOcorrencia,
+	desvincularPagamento,
+	listarPendentesNoMes,
+	marcarComoPaga,
+	marcarComoPrevista,
+	statusNoMes,
+	vincularPagamentosUnicos
+} from './recorrencia/recorrencia';
+export type { Recorrente } from './recorrencia/recorrencia';
