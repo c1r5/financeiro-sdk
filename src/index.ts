@@ -86,3 +86,26 @@ export {
 	valorNoDia
 } from './previsao/previsao';
 export type { Frequencia, Previsao } from './previsao/previsao';
+export {
+	HORIZONTE_PROXIMA_ENTRADA_DIAS,
+	JANELA_GASTO_DIARIO_PADRAO,
+	aplicarGastoHipotetico,
+	calcularDataDoAperto,
+	calcularEventosFatura,
+	calcularGastoAvulsoMedioDiario,
+	calcularGastoDiarioDisponivel,
+	fluxoRealNoDia,
+	limiteDiarioSustentavel,
+	limiteGastoDiario,
+	projetarSaldo,
+	proximaEntradaRelevante,
+	resumirFluxo,
+	saldoDisponivelAteData
+} from './projecao/projecao';
+export type {
+	DataDoAperto,
+	DiaProjetado,
+	EventoFatura,
+	EventoProjecao,
+	EventoProximaEntrada
+} from './projecao/projecao';
