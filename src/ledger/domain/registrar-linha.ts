@@ -1,6 +1,6 @@
-import { DataCivil } from './data-civil.ts';
-import { Dinheiro } from './dinheiro.ts';
-import type { CategoriaTransacao, Parcela, TipoTransacao, Transacao } from './transacao.ts';
+import { DataCivil } from './data-civil';
+import { Dinheiro } from './dinheiro';
+import type { CategoriaTransacao, Parcela, TipoTransacao, Transacao } from './transacao';
 
 export interface NovaLinha {
 	id: string;

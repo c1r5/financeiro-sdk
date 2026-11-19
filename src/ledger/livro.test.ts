@@ -1,13 +1,13 @@
 import { expect, test } from 'bun:test';
-import { consultarSaldos } from './application/consultar-saldos.ts';
-import { listarTransacoes } from './application/listar-transacoes.ts';
-import { registrarTransacao } from './application/registrar-transacao.ts';
-import { removerTransacao } from './application/remover-transacao.ts';
-import type { Conta } from './domain/conta.ts';
-import type { Transacao } from './domain/transacao.ts';
-import type { GeradorDeId } from './ports/gerador-de-id.ts';
-import type { Relogio } from './ports/relogio.ts';
-import type { RepositorioDoLivro } from './ports/repositorio-do-livro.ts';
+import { consultarSaldos } from './application/consultar-saldos';
+import { listarTransacoes } from './application/listar-transacoes';
+import { registrarTransacao } from './application/registrar-transacao';
+import { removerTransacao } from './application/remover-transacao';
+import type { Conta } from './domain/conta';
+import type { Transacao } from './domain/transacao';
+import type { GeradorDeId } from './ports/gerador-de-id';
+import type { Relogio } from './ports/relogio';
+import type { RepositorioDoLivro } from './ports/repositorio-do-livro';
 
 class LivroEmMemoria implements RepositorioDoLivro {
 	private contas: Conta[] = [];

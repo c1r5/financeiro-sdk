@@ -1,7 +1,7 @@
-import { calcularSaldos } from '../domain/calcular-saldos.ts';
-import type { Saldos } from '../domain/saldos.ts';
-import type { Relogio } from '../ports/relogio.ts';
-import type { RepositorioDoLivro } from '../ports/repositorio-do-livro.ts';
+import { calcularSaldos } from '../domain/calcular-saldos';
+import type { Saldos } from '../domain/saldos';
+import type { Relogio } from '../ports/relogio';
+import type { RepositorioDoLivro } from '../ports/repositorio-do-livro';
 
 export async function consultarSaldos(
 	repositorio: RepositorioDoLivro,

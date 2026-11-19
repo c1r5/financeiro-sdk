@@ -1,5 +1,5 @@
-import type { Conta } from '../domain/conta.ts';
-import type { Transacao } from '../domain/transacao.ts';
+import type { Conta } from '../domain/conta';
+import type { Transacao } from '../domain/transacao';
 
 /** Persistência do razão. O SDK não escolhe o banco. */
 export interface RepositorioDoLivro {

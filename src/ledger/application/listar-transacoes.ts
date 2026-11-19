@@ -1,7 +1,7 @@
-import { buscar, filtrarPorMes, filtrarPorTipo } from '../domain/filtrar-lancamentos.ts';
-import { ordenar } from '../domain/ordenar-lancamentos.ts';
-import type { TipoTransacao, Transacao } from '../domain/transacao.ts';
-import type { RepositorioDoLivro } from '../ports/repositorio-do-livro.ts';
+import { buscar, filtrarPorMes, filtrarPorTipo } from '../domain/filtrar-lancamentos';
+import { ordenar } from '../domain/ordenar-lancamentos';
+import type { TipoTransacao, Transacao } from '../domain/transacao';
+import type { RepositorioDoLivro } from '../ports/repositorio-do-livro';
 
 export interface FiltroDeTransacoes {
 	mes?: number;

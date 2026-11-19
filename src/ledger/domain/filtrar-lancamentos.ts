@@ -1,4 +1,4 @@
-import type { TipoTransacao, Transacao } from './transacao.ts';
+import type { TipoTransacao, Transacao } from './transacao';
 
 export function filtrarPorMes(transacoes: Transacao[], mes: number, ano: number): Transacao[] {
 	const mesStr = String(mes).padStart(2, '0');

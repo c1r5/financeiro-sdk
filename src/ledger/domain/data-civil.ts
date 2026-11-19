@@ -1,4 +1,4 @@
-import { ErroDeDominio } from './erro.ts';
+import { ErroDeDominio } from './erro';
 
 const FORMATO = /^(\d{4})-(\d{2})-(\d{2})$/;
 

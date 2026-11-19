@@ -1,4 +1,4 @@
-import { ErroDeDominio } from './erro.ts';
+import { ErroDeDominio } from './erro';
 
 /** Magnitude monetária em centavos. A direção fica no tipo do lançamento. */
 export class Dinheiro {

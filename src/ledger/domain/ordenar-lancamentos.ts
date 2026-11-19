@@ -1,4 +1,4 @@
-import type { Transacao } from './transacao.ts';
+import type { Transacao } from './transacao';
 
 export function ordenar(transacoes: Transacao[]): Transacao[] {
 	return [...transacoes].sort((a, b) => {

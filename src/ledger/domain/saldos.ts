@@ -1,4 +1,4 @@
-import type { Conta } from './conta.ts';
+import type { Conta } from './conta';
 
 export interface SaldoConta {
 	conta: Conta;

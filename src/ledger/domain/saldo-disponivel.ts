@@ -1,5 +1,5 @@
-import type { Conta } from './conta.ts';
-import type { Transacao } from './transacao.ts';
+import type { Conta } from './conta';
+import type { Transacao } from './transacao';
 
 /**
  * Efeito da linha no saldo disponível. Poupança fica de fora. Transferência

@@ -1,4 +1,4 @@
-import type { RepositorioDoLivro } from '../ports/repositorio-do-livro.ts';
+import type { RepositorioDoLivro } from '../ports/repositorio-do-livro';
 
 export async function removerTransacao(
 	repositorio: RepositorioDoLivro,

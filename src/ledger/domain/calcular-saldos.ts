@@ -1,7 +1,7 @@
-import type { Conta } from './conta.ts';
-import { DataCivil } from './data-civil.ts';
-import type { Saldos, SaldoConta } from './saldos.ts';
-import type { Transacao } from './transacao.ts';
+import type { Conta } from './conta';
+import { DataCivil } from './data-civil';
+import type { Saldos, SaldoConta } from './saldos';
+import type { Transacao } from './transacao';
 
 /**
  * Saldo de cada conta ativa. Linha com data posterior a `hoje` permanece no
