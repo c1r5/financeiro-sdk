@@ -1,0 +1,1 @@
+{"version":3,"file":"erro.js","sourceRoot":"","sources":["../../../src/ledger/domain/erro.ts"],"names":[],"mappings":"AAAA,MAAM,OAAO,aAAc,SAAQ,KAAK;IAC9B,MAAM,CAAS;IAExB,YAAY,MAAc;QACzB,KAAK,CAAC,MAAM,CAAC,CAAC;QACd,IAAI,CAAC,IAAI,GAAG,eAAe,CAAC;QAC5B,IAAI,CAAC,MAAM,GAAG,MAAM,CAAC;IACtB,CAAC;CACD"}

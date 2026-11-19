@@ -1,0 +1,21 @@
+{
+	"name": "financeiro-sdk",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js"
+		}
+	},
+	"scripts": {
+		"prepare": "tsc -p tsconfig.build.json",
+		"check": "tsc --noEmit",
+		"test": "bun test"
+	},
+	"devDependencies": {
+		"bun-types": "^1.4.4",
+		"typescript": "^5.9.3"
+	}
+}
