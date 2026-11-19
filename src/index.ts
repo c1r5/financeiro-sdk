@@ -28,3 +28,99 @@ export { removerTransacao } from './ledger/application/remover-transacao';
 export type { GeradorDeId } from './ledger/ports/gerador-de-id';
 export type { Relogio } from './ledger/ports/relogio';
 export type { RepositorioDoLivro } from './ledger/ports/repositorio-do-livro';
+export { CATEGORIAS, categoriasPorFluxo, ehDivida, labelCategoria } from './categorias/catalogo';
+export type { Categoria, FluxoCategoria } from './categorias/catalogo';
+export { validarConfiguracao } from './configuracao/configuracao';
+export type { Configuracao, DivisaoRenda } from './configuracao/configuracao';
+export { estadoDoSaldo, estadoDoUso } from './indicadores/estado';
+export type { EstadoIndicador } from './indicadores/estado';
+export { abrirConta, poupancaDoProposito, poupancasVinculadas } from './conta/conta';
+export type { AberturaDeConta } from './conta/conta';
+export { avancarMes, dataUtc, diaDaSemana, diasNoMes, partes, somarDias } from './calendario';
+export {
+	DESCRICAO_AJUSTE_FATURA_ATUAL,
+	DESCRICAO_VALOR_BASE_FATURA,
+	avancarReferencia,
+	calcularFaturaReferencia,
+	calcularVencimento,
+	criarAjusteFaturaAtual,
+	criarCartao,
+	criarValorBase,
+	encontrarAjusteFaturaAtual,
+	encontrarValorBase,
+	gerarFatura,
+	gerarResumo,
+	listarReferencias,
+	proximaReferencia,
+	referenciaAtual,
+	registrarGasto,
+	registrarGastoParcelado,
+	registrarPagamento,
+	registrarParcelamentoEmAndamento
+} from './cartao/cartao';
+export type { Cartao, Fatura, NovoCartao, ResumoCartao } from './cartao/cartao';
+export {
+	aplicavelNoMes,
+	criarRecorrente,
+	dataDaOcorrencia,
+	desvincularPagamento,
+	listarPendentesNoMes,
+	marcarComoPaga,
+	marcarComoPrevista,
+	statusNoMes,
+	vincularPagamentosUnicos
+} from './recorrencia/recorrencia';
+export type { Recorrente } from './recorrencia/recorrencia';
+export {
+	aplicavelNoMes as previsaoAplicavelNoMes,
+	aplicarASerie,
+	contaNaProjecao,
+	definirValorDoDia,
+	desvincularPagamento as desvincularPagamentoPrevisao,
+	excluirOcorrencia,
+	marcarDiaPago,
+	ocorreNoDia,
+	reverterDia,
+	rotuloDiasSemana,
+	statusNoDia,
+	valorNoDia
+} from './previsao/previsao';
+export type { Frequencia, Previsao } from './previsao/previsao';
+export {
+	HORIZONTE_PROXIMA_ENTRADA_DIAS,
+	JANELA_GASTO_DIARIO_PADRAO,
+	aplicarGastoHipotetico,
+	calcularDataDoAperto,
+	calcularEventosFatura,
+	calcularGastoAvulsoMedioDiario,
+	calcularGastoDiarioDisponivel,
+	fluxoRealNoDia,
+	limiteDiarioSustentavel,
+	limiteGastoDiario,
+	projetarSaldo,
+	proximaEntradaRelevante,
+	resumirFluxo,
+	saldoDisponivelAteData
+} from './projecao/projecao';
+export type {
+	DataDoAperto,
+	DiaProjetado,
+	EventoFatura,
+	EventoProjecao,
+	EventoProximaEntrada
+} from './projecao/projecao';
+export {
+	calcularDivisao,
+	calcularEntradasProjetadas,
+	calcularReservaAcumulada,
+	calcularUsoDividas,
+	projetarCustoDividas
+} from './divisao/divisao';
+export type {
+	HorizonteCustoDividas,
+	LinhaDivida,
+	OrigemUsoDivida,
+	RefLinhaDivida,
+	ResultadoDivisao,
+	UsoDividas
+} from './divisao/divisao';

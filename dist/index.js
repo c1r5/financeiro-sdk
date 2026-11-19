@@ -11,4 +11,14 @@ export { consultarSaldos } from './ledger/application/consultar-saldos';
 export { listarTransacoes } from './ledger/application/listar-transacoes';
 export { registrarTransacao } from './ledger/application/registrar-transacao';
 export { removerTransacao } from './ledger/application/remover-transacao';
+export { CATEGORIAS, categoriasPorFluxo, ehDivida, labelCategoria } from './categorias/catalogo';
+export { validarConfiguracao } from './configuracao/configuracao';
+export { estadoDoSaldo, estadoDoUso } from './indicadores/estado';
+export { abrirConta, poupancaDoProposito, poupancasVinculadas } from './conta/conta';
+export { avancarMes, dataUtc, diaDaSemana, diasNoMes, partes, somarDias } from './calendario';
+export { DESCRICAO_AJUSTE_FATURA_ATUAL, DESCRICAO_VALOR_BASE_FATURA, avancarReferencia, calcularFaturaReferencia, calcularVencimento, criarAjusteFaturaAtual, criarCartao, criarValorBase, encontrarAjusteFaturaAtual, encontrarValorBase, gerarFatura, gerarResumo, listarReferencias, proximaReferencia, referenciaAtual, registrarGasto, registrarGastoParcelado, registrarPagamento, registrarParcelamentoEmAndamento } from './cartao/cartao';
+export { aplicavelNoMes, criarRecorrente, dataDaOcorrencia, desvincularPagamento, listarPendentesNoMes, marcarComoPaga, marcarComoPrevista, statusNoMes, vincularPagamentosUnicos } from './recorrencia/recorrencia';
+export { aplicavelNoMes as previsaoAplicavelNoMes, aplicarASerie, contaNaProjecao, definirValorDoDia, desvincularPagamento as desvincularPagamentoPrevisao, excluirOcorrencia, marcarDiaPago, ocorreNoDia, reverterDia, rotuloDiasSemana, statusNoDia, valorNoDia } from './previsao/previsao';
+export { HORIZONTE_PROXIMA_ENTRADA_DIAS, JANELA_GASTO_DIARIO_PADRAO, aplicarGastoHipotetico, calcularDataDoAperto, calcularEventosFatura, calcularGastoAvulsoMedioDiario, calcularGastoDiarioDisponivel, fluxoRealNoDia, limiteDiarioSustentavel, limiteGastoDiario, projetarSaldo, proximaEntradaRelevante, resumirFluxo, saldoDisponivelAteData } from './projecao/projecao';
+export { calcularDivisao, calcularEntradasProjetadas, calcularReservaAcumulada, calcularUsoDividas, projetarCustoDividas } from './divisao/divisao';
 //# sourceMappingURL=index.js.map
